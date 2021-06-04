@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "panepanel",
+	"version": "${version}",
+	"name": "Pane Panel",
+	"description": "A client-side panel showing all the types of glass panes available in Minecraft.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Pane-Panel#readme",
+		"issues": "https://github.com/haykam821/Pane-Panel/issues"
+	},
+	"entrypoints": {
+		"main": [
+			"io.github.haykam821.panepanel.Main"
+		]
+	},
+	"license": "MIT",
+	"icon": "assets/panepanel/icon.png",
+	"depends": {
+		"fabricloader": ">=0.4.0",
+		"fabric-command-api-v1": "*",
+		"fabric-resource-loader-v0": "*",
+		"libgui": "*"
+	}
+}
